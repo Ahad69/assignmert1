@@ -1,0 +1,206 @@
+/* fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Poppins:wght@500&family=Yeseva+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+.parent{
+    margin:50px 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.details{
+    margin-top: 140px;
+    height: 550px;
+}
+.top-title{
+    font-family: 'Yeseva One', cursive;
+    border-left: 5px solid #FF5959;
+    font-weight: 400;
+    font-size: 50px;
+    
+}
+
+.top-title p {
+    margin-left: 10px;
+} 
+span{
+    margin-left: 10px;
+    color: orange;
+   
+}
+.text{
+    margin-top: 50px;
+    width: 80%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.title{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+}
+.button{
+    padding: 20px;
+    background:  #ff3a88;
+    color: white;
+    border: 0 ;
+    border-radius: 20px;
+    width: 250px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.top-img img{
+    width: 500px;
+    height: 600px;
+}
+
+/* ----------------------------missons section----------------------------------- */
+
+.box{
+    margin:80px 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.box1{
+    
+    border-radius: 20px;
+    width: 300px;
+    padding: 20px;
+}
+.box1 img{
+    margin: 5px;
+    width: 200px;
+    height: 200px;
+}
+#box1 {
+   background: #4f9da63b; 
+}
+#box2 {
+   background: #ff595936; 
+}
+#box3 {
+   background: #f1dfadcc; 
+}
+.box-title{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+}
+
+.hr{
+margin:150px auto;
+  width: 50%;
+  height: 4px;
+  border: 0;
+  background: linear-gradient(to left, rgba(252, 248, 248, 0.144) , rgb(74, 77, 74) , rgba(252, 247, 247, 0.089)); 
+}
+
+
+/*---------------------------------- develop--------------------------------------  */
+.develop{
+    margin-left: 50px;
+    background-image: url('/image/shape-1.png');
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position: left;
+  
+}
+.develop-parent{
+    margin: 150px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.develop-img img{
+    width: 300px;
+    height: 400px;
+}
+.develop-title{
+    
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+}
+.develop-text{
+    margin-left: 40px;
+    margin-top: 30px;
+    
+}
+/*------------------------------------- planning-----------------------------------  */
+.planning{
+    height: 500px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+    background-image: url('/image/shape-1.png');
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position: 1000px 300px;
+  
+}
+.planning-parent{
+    margin: 150px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.planning-img img{
+    width: 300px;
+    height: 400px;
+}
+.planning-text{
+    margin-right: 40px;
+    margin-top: 30px;
+}
+/*----------------------------------- other-plan----------------------------------  */
+.others{
+    background-image: url('/image/shape-5.png');
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position: 00px 10px;
+}
+.other-plan-parent{
+   margin: 100px 100px; 
+    display: flex;
+
+}
+
+.other-plan-img{
+    width: 450px;
+    height: 550px;
+    margin-bottom: 20px;
+  
+}
+.other-plan-img img{
+    width: 400px;
+    height: 500px;
+    margin: auto;
+   background: rgba(243, 177, 153, 0.322);
+   border-radius: 50%;
+}
+.other-plan-text{
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.other-plan-text h3{
+    color: orange;
+    font-size: 30px;
+}
+
+/* -------------------------------------footer----------------------------------------- */
+footer{
+    height: 150px;
+    background: black;
+    
+}
+.footer{
+    padding-top: 20px;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-style: normal;
+    font-weight: normal;
+}
+.footer-text{
+
+    color: white;
+}
