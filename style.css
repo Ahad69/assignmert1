@@ -112,7 +112,7 @@ margin:150px auto;
 /*---------------------------------- develop--------------------------------------  */
 .develop{
     margin-left: 50px;
-    background-image: url('/image/shape-1.png');
+    background-image: url('image/shape-1.png');
     background-repeat: no-repeat;
     background-size: 200px;
     background-position: left;
@@ -142,7 +142,7 @@ margin:150px auto;
      height: 600px;
     margin-right: 50px;
     margin-bottom: 100px;
-    background-image: url('/image/shape-1.png');
+    background-image: url('image/shape-1.png');
     background-repeat: no-repeat;
     background-size: 200px;
     background-position: 1000px 300px;
@@ -164,7 +164,7 @@ margin:150px auto;
 /*----------------------------------- other-plan----------------------------------  */
 .others{
     overflow: hidden;
-    background-image: url('/image/shape-5.png');
+    background-image: url('image/shape-5.png');
     background-repeat: no-repeat;
     background-size: 200px;
     background-position: 00px 10px;
